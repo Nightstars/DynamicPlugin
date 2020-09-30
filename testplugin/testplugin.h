@@ -4,6 +4,7 @@
 #include "ui_testplugin.h"
 #include <QtWidgets\qboxlayout.h>
 #include <QtWidgets\qpushbutton.h>
+#include <QStackedWidget>
 
 class testplugin : public QWidget
 {
@@ -16,6 +17,7 @@ private:
     Ui::testpluginClass ui;
     QVBoxLayout* m_qvbltMainlayout;
     QPushButton* m_qpbtnSayHello;
+    QStackedWidget* m_stkwgt_mainPage;
 private slots:
     void OnBtnClick();
 };

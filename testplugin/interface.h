@@ -8,6 +8,6 @@ public:
     virtual void SayHello(QWidget* parent) = 0;
 };
 
-#define pluginInterface_iid "io.qt.dynamicplugin"
+#define pluginInterface_iid "com.smartsoftstudio"
 Q_DECLARE_INTERFACE(PluginInterface, pluginInterface_iid)
 

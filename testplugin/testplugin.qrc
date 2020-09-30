@@ -1,0 +1,4 @@
+<RCC>
+    <qresource prefix="testplugin">
+    </qresource>
+</RCC>
